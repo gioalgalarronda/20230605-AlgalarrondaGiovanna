@@ -1,0 +1,74 @@
+$ git init
+Initialized empty Git repository in C:/Users/Nana-/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna/.git/
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (main)
+$ git remote add origin https://github.com/gioalgalarronda/20230605-AlgalarrondaGiovanna.git      
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (main)
+$ touch comandos.txt main.js index.html
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (main)
+$ git add .
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (main)
+$ git commit -m "commit 01 de GiovannaAlgalarronda"
+[main (root-commit) 3e72995] commit 01 de GiovannaAlgalarronda
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 251 bytes | 125.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gioalgalarronda/20230605-AlgalarrondaGiovanna.git
+ * [new branch]      main -> main
+
+______
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (main)
+$ git checkout -b "feature"
+Switched to a new branch 'feature'
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (feature)
+$ mkdir Hardware Software SeguridadInformatica
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (feature)
+$ touch Hardware/resumen.txt
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (feature)
+$ touch Software/resumen.txt
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (feature)
+$ touch SeguridadInformatica/resumen.txt
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (feature)
+$ git add .
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (feature)
+$ git commit -m "commit 02 de GiovannaAlgalarronda"
+[feature 0ec226e] commit 02 de GiovannaAlgalarronda
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 SeguridadInformatica/resumen.txt
+ create mode 100644 Software/resumen.txt
+
+Nana-@LAPTOP-FSVVQD74 MINGW64 ~/OneDrive/Escritorio/Certified Peach Developer/Intro a la Informática 1/20230605-AlgalarrondaGiovanna (feature)
+$ git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 387 bytes | 387.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/gioalgalarronda/20230605-AlgalarrondaGiovanna/pull/new/feature    
+remote:
+To https://github.com/gioalgalarronda/20230605-AlgalarrondaGiovanna.git
+ * [new branch]      feature -> feature
